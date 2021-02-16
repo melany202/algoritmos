@@ -1,0 +1,93 @@
+body{
+    background-color:rgb(107, 200, 212);
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+    
+header{
+    background-color:rgb(140, 199, 207);
+    min-height: 10vh;
+    text-align: center;
+    color:black;
+
+}
+header > h1{
+    font-size: 5em;
+    margin-top: 0px;
+    margin-bottom:0px;
+    text-transform:uppercase;
+    font-family:fantasy;
+    background-image:url("FONFO1.jpg");
+}
+main{
+    padding:0px;
+}
+
+#biografia1{
+    background-color: rgb(107, 200, 212);
+    padding: 3%;
+}
+
+#foto-martin{
+    margin: 0px;
+    text-align: center;
+}
+#foto-martin>img{
+    width: 50wh;
+    height: 50vh;
+    transition: 1s; 
+ }
+ #foto-martin>img:hover{
+    width: 60wh;
+    height: 60vh;
+    transition: 1s;
+ }
+
+#foto-martin>figcaption{
+    font: 2rem;
+}
+
+.martin-1{
+    font-size: 4rem;
+    transition: 1s;
+    font-family: cursive;
+    text-align: center;
+}
+.martin-1{
+    background-color:white;
+    transition: 1s;
+}
+#biografia2> ul > li{
+    font-size: 3rem;
+}
+#biografia2{
+    margin: 0px;
+    text-align: center;
+}
+.martin-2{
+    font-size: 4rem;
+    transition: 1s;
+    font-family: cursive;
+    text-align: center;
+}
+.martin-2:hover{
+    background-color:white;
+    transition: 1s;
+}
+
+#idolo > ul >li{
+    font-size: 3rem;
+}
+
+#idolo{
+    margin: 0px;
+    text-align: center;
+}
+footer > address > a{
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: slateblue;
+}

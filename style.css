@@ -1,0 +1,181 @@
+body{
+    background-color:rgb(107, 200, 212);
+    margin:0px;
+    padding:0px;
+}
+    
+header{
+    background-color:rgb(140, 199, 207);
+    min-height: 10vh;
+    text-align: center;
+    color:white;
+
+}
+header > h1{
+    font-size: 5em;
+    margin-top: 0px;
+    margin-bottom:0px;
+    text-transform:uppercase;
+    font-family:fantasy;
+    background-image:url("corazon.jpg");
+}
+
+
+main{
+    padding:0px;
+}
+
+#pasatiempos{
+    background-color: rgb(107, 200, 212);
+    padding: 3%;
+}
+
+#atardecer{
+    margin: 0px;
+    text-align: center;
+}
+#atardecer>img{
+    width: 50wh;
+    height: 50vh;
+    transition: 1s; 
+ }
+
+#atardecer>img:hover{
+    width: 60wh;
+    height: 60vh;
+    transition: 1s;
+ }
+
+#atardecer>figcaption{
+    font: 2rem;
+}
+
+.titulo-familia{
+    font-size: 4rem;
+    transition: 1s;
+    font-family: cursive;
+    text-align: center;
+}
+.titulo-familia:hover{
+    background-color: skyblue;
+    transition: 1s;
+}
+
+#familia > ul > li{
+    font-size: 3rem;
+}
+
+#familia{
+    margin: 0px;
+    text-align: center;
+}
+
+#foto-familia>img{
+    width: 40vw;
+    height: 40vh;
+    transition: 1s;
+
+}
+
+#foto-familia>:hover{
+    width: 50vw;
+    height: 50vh;
+    transition: 1s;
+}
+
+.titulo-amigos{
+    font-size: 4rem;
+    transition: 1s;
+    font-family: cursive;
+    text-align: center;
+}
+
+.titulo-amigos:hover{
+    background-color: skyblue;
+    transition: 1s;
+}
+
+#amigos > ul >li{
+    font-size: 3rem;
+}
+
+#amigos{
+    margin: 0px;
+    text-align: center;
+}
+
+#foto-amigos>img{
+    width: 40vw;
+    height: 40vh;
+    transition: 1s;
+}
+
+#foto-amigos>:hover{
+    width: 50vw;
+    height: 50vh;
+    transition: 1s;
+}
+
+.titulo-animales{
+    font-size: 4rem;
+    transition: 1s;
+    font-family: cursive;
+    text-align: center;
+}
+
+.titulo-animales:hover{
+    background-color: skyblue;
+    transition: 1s;
+}
+
+#perro > ul > li{
+    font-size: 3rem;
+}
+#perro{
+    margin: 0px;
+    text-align: center;
+}
+
+#foto-perros>img{
+    width: 40vw;
+    height: 40vh;
+    transition: 1s;
+}
+
+#foto-perros>:hover{
+    width: 50vw;
+    height: 50vh;
+    transition: 1s;
+}
+
+.titulo-viajar{
+    font-size: 4rem;
+    transition: 1s;
+    font-family: cursive;
+    text-align: center;
+}
+
+.titulo-viajar:hover{
+    background-color: skyblue;
+    transition: 1s;
+}
+
+#viajar > ul > li{
+    font-size: 3rem;
+}
+
+.content-fig{
+    width: 50vw;
+    height: 45vh;
+}
+
+footer > address > a{
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: slateblue;
+}
+
+
+
